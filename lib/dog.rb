@@ -7,7 +7,7 @@ class Dog
   @name = name
   @type = action
   puts "The #{name} is #{action}ing"
-end
+  end
 end
 
 
