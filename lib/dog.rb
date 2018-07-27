@@ -1,12 +1,12 @@
 # dog.rb
 class Dog
-  def bark
+  def #bark
     puts "Woof!"
   end
   def initialize(name, action = "sit")
-  @name = name
-  @type = action
-  puts "The #{name} is #{action}ing"
+    @name = name
+    @type = action
+    puts "The #{name} is #{action}ing"
   end
 end
 
