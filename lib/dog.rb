@@ -4,7 +4,7 @@ class Dog
     puts "Woof!"
   end
   
-  def talk
+  def sit
     puts "The Dog is sitting"
   end
 end
