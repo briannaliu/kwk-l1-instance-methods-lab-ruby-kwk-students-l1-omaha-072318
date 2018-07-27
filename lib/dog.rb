@@ -1,5 +1,7 @@
 # dog.rb
 class Dog
+  def bark
+    puts "Woof!"
   def initialize(name, action = "sit")
   @name = name
   @type = action
