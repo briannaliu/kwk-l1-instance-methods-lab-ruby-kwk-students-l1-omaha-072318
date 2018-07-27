@@ -3,10 +3,9 @@ class Dog
   def bark
     puts "Woof!"
   end
-  def initialize(name, action = "sit")
-    @name = name
-    @type = action
-    puts "The #{name} is #{action}ing"
+  
+  def talk
+    puts "The Dog is sitting"
   end
 end
 
