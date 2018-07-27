@@ -2,10 +2,12 @@
 class Dog
   def initialize(name, action = "sit")
   @name = name
-  @type = activity
+  @type = action
   puts "The #{name} is #{action}ing"
 end
 end
+
+
 
 
   
