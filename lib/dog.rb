@@ -1,7 +1,13 @@
 # dog.rb
 class Dog
-  def initialize(name, )
-  
+  def initialize(name, action = "sit")
+  @name = name
+  @type = activity
+  puts "The #{name} is #{action}ing"
+end
+end
+
+
   
   
   
